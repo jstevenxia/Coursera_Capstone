@@ -1,0 +1,10 @@
+We will use dataset from key neighbourhoods of Toronto. Dataset consisiting of latitude and longitude and zips codes. 
+
+We acquire data about different venues in various neighbourhoods of specific borough. 
+The tool we use is via the Foursquare API, which can provide us the location information. 
+Foursquare is a location data provider with information about all manner of venues and events within an area of interest. 
+Such information includes venue names, locations, menus and even photos. 
+As such, the foursquare location platform will be used as the sole data source since all the stated required information can be obtained through the API.
+We then connect to the Foursquare API to gather information about venues inside each and every neighbourhood. 
+
+Data lists contains Neighbourhood, its Latitude and Longitude parameters, Venue, Name of the Venue (restaurant, cafe etc), Venue Latitude, Longitude and Category. 
